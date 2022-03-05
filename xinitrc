@@ -50,11 +50,14 @@ fi
 #keybinds (via xbindkeys)
 xbindkeys &
 
+#Wallpaper
+~/.fehbg &
+
 #Compositor 
 picom -f &
 
-#Wallpaper
-~/.fehbg &
+#redshift
+redshift &
 
 #dwmblocks
 dwmblocks &
@@ -70,6 +73,6 @@ while true; do
 	dwm >/dev/null 2>&1
 done
 
-# Execute DWM
+# Execute DWM with dbus_launch for flameshot screenshots
 exec dwm
 
