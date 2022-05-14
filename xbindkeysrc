@@ -118,6 +118,10 @@ Mod4 + shift + t
 "flameshot gui"
 Mod4 + Mod1 + p
 
+#slock
+"slock"
+Mod4 + shift + x 
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
